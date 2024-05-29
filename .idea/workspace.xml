@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ef22c59-1ec0-4228-9353-986eb9ec5225" name="更改" comment="删除了一些每有用上的方法" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Mapper" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4eed9c11-974b-47e4-83a6-a880a4939b87" />
+        <option name="url" value="https://github.com/2274653604/zhihui002.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="$USER_HOME$/soft/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="usePluginRegistry" value="true" />
+        <option name="userSettingsFile" value="D:\soft\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2fwbK4kIVQdcgdqHJLcMoxALPM1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;SQL 更新&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;SQL 更新&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/code/zhihui001/project/src/main/java/com/yun/project&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Y/Desktop/工程实践/代码/zhihui002&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;46f86faa6bbf9ac94a7e459509a20ed0&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\soft\\IntelliJ_IDEA_2023.2.1_vip\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言&quot;: [
+      &quot;MySQL&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yun.project.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\zhihui002\project\src\main\java\com\yun" />
+      <recent name="D:\code\zhihui001\project\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\zhihui002\project\src\main\resources\mapper" />
+      <recent name="D:\code\zhihui001\project\src\main\resources\mapper" />
+      <recent name="D:\code\zhihui001\project\src\main\java\com\yun\project\demos" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.yun.service" />
+      <recent name="com.yun.service.impl" />
+      <recent name="com.yun" />
+      <recent name="com.yun.project.entity" />
+      <recent name="com.yun.project.mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yun.service" />
+      <recent name="com.yun.dao" />
+      <recent name="com.yun.entity" />
+      <recent name="com.yun.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProjectApplication">
+    <configuration name="T0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yun.project.common.T0" />
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yun.project.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="helloController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yun.project.controller.helloController" />
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yun.project.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="project.common.T0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.common.T0" />
+      <module name="project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yun.ProjectApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yun.ProjectApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ProjectApplication" />
+      <item itemvalue="应用程序.helloController" />
+      <item itemvalue="应用程序.project.common.T0" />
+      <item itemvalue="应用程序.T0" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProjectApplication" />
+        <item itemvalue="应用程序.project.common.T0" />
+        <item itemvalue="应用程序.T0" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="1ef22c59-1ec0-4228-9353-986eb9ec5225" name="更改" comment="" />
+      <created>1714715020932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714715020932</updated>
+      <workItem from="1714715021935" duration="3677000" />
+      <workItem from="1714718721328" duration="421000" />
+      <workItem from="1714719418828" duration="1000" />
+      <workItem from="1714719758716" duration="3539000" />
+      <workItem from="1714723329637" duration="4380000" />
+      <workItem from="1714727725459" duration="127000" />
+      <workItem from="1714727863391" duration="289000" />
+      <workItem from="1714728197956" duration="18000" />
+      <workItem from="1714728465126" duration="13483000" />
+      <workItem from="1714744329796" duration="10731000" />
+      <workItem from="1714788495273" duration="15478000" />
+      <workItem from="1714886822528" duration="7294000" />
+      <workItem from="1714917575234" duration="7694000" />
+      <workItem from="1714927595881" duration="14116000" />
+      <workItem from="1714997446570" duration="2980000" />
+      <workItem from="1715047817668" duration="3714000" />
+      <workItem from="1715061623314" duration="437000" />
+      <workItem from="1715062941099" duration="1216000" />
+      <workItem from="1715068248159" duration="7627000" />
+      <workItem from="1715155107797" duration="119000" />
+      <workItem from="1715324295892" duration="612000" />
+      <workItem from="1715579427184" duration="337000" />
+      <workItem from="1715583830900" duration="106000" />
+      <workItem from="1715652858465" duration="3185000" />
+      <workItem from="1715658880996" duration="218000" />
+      <workItem from="1715666213931" duration="7420000" />
+      <workItem from="1715675303485" duration="3822000" />
+      <workItem from="1715771759563" duration="1304000" />
+      <workItem from="1715818943026" duration="9428000" />
+      <workItem from="1716164443595" duration="789000" />
+      <workItem from="1716257610877" duration="3463000" />
+      <workItem from="1716271590371" duration="10118000" />
+      <workItem from="1716291926150" duration="1607000" />
+      <workItem from="1716298590754" duration="6000" />
+      <workItem from="1716531172750" duration="351000" />
+      <workItem from="1716531537595" duration="858000" />
+      <workItem from="1716534370417" duration="649000" />
+      <workItem from="1716537633563" duration="1331000" />
+      <workItem from="1716553538716" duration="3185000" />
+      <workItem from="1716563542695" duration="283000" />
+      <workItem from="1716809458204" duration="1432000" />
+      <workItem from="1716895412646" duration="567000" />
+      <workItem from="1716987659792" duration="857000" />
+      <workItem from="1716988553430" duration="103000" />
+    </task>
+    <task id="LOCAL-00001" summary="删除了一些每有用上的方法">
+      <created>1716988393148</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716988393148</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除了一些每有用上的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除了一些每有用上的方法" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
