@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yun.dao.StaffMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.yun.entity.Staff">
+        <id column="s_id" property="sId" />
+        <result column="s_name" property="sName" />
+        <result column="s_sex" property="sSex" />
+        <result column="s_age" property="sAge" />
+        <result column="d_id" property="dId" />
+        <result column="d_name" property="dName" />
+        <result column="w_id" property="wId" />
+        <result column="w_name" property="wName" />
+        <result column="s_status" property="sStatus" />
+        <result column="s_degrees" property="sDegrees" />
+        <result column="s_post" property="sPost" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        s_id, s_name, s_sex, s_age, d_name,w_name,s_status,s_degrees,s_post
+    </sql>
+
+    <select id="pageCC" resultType="com.yun.entity.Staff">
+        select * from staff ${ew.customSqlSegment}
+    </select>
+
+    <update id="updateDepartmentNameByDepartmentId">
+        UPDATE staff
+        SET d_name = #{dName}
+        WHERE d_id = #{dId}
+    </update>
+
+    <select id="selectSex" resultType="java.util.Map">
+        select cast(s_sex as char) sex,cast(count(*) as char)as value from staff group by s_sex
+    </select>
+
+    <update id="updateWorkAreaNameByWorkAreaId">
+        UPDATE staff
+        SET w_name = #{wName}
+        WHERE w_id = #{wId}
+    </update>
+
+    <select id="selectAge" resultType="java.util.Map">
+        SELECT CASE
+                   WHEN s_age &lt; 25 THEN '&lt;25'
+                   WHEN s_age BETWEEN 25 AND 30 THEN '25-30'
+                   WHEN s_age BETWEEN 31 AND 36 THEN '31-36'
+                   WHEN s_age BETWEEN 37 AND 42 THEN '37-42'
+                   WHEN s_age BETWEEN 43 AND 48 THEN '43-48'
+                   ELSE '>48'
+                   END AS age_range,
+               cast(COUNT(*) / (select count(*) from staff) * 100 as char)AS count
+        FROM staff
+        GROUP BY age_range
+        order by age_range
+    </select>
+    <select id="selectSum" resultType="java.lang.Integer">
+        Select count(*) from staff
+    </select>
+    <select id="selectPost" resultType="java.util.Map">
+        select cast(s_post as char) post,cast(count(*) as char)as value from staff group by s_post
+    </select>
+    <select id="selectDegrees" resultType="java.util.Map">
+        select cast(s_degrees as char) degrees,cast(count(*) as char) as value from staff group by s_degrees
+    </select>
+
+
+</mapper>
+
+
+
+
+
+
+
+        <!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE mapper-->
+<!--        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"-->
+<!--        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">-->
+<!--<mapper namespace="com.yun.dao.StaffMapper">-->
+<!--    &lt;!&ndash; 定义联合查询的 resultMap &ndash;&gt;-->
+<!--    <resultMap id="BaseResultMap" type="com.yun.entity.Staff">-->
+<!--        &lt;!&ndash; 员工信息映射 &ndash;&gt;-->
+<!--        <id column="s_id" property="sId" />-->
+<!--        <result column="s_name" property="sName" />-->
+<!--        <result column="s_sex" property="sSex" />-->
+<!--        <result column="s_age" property="sAge" />-->
+<!--        <result column="s_status" property="sStatus" />-->
+<!--        &lt;!&ndash; 部门信息映射 &ndash;&gt;-->
+<!--        <association property="dept" javaType="com.yun.entity.Dept">-->
+<!--            <result column="d_id" property="dId" />-->
+<!--            <result column="d_name" property="dName" />-->
+<!--        </association>-->
+<!--        &lt;!&ndash; 其他信息映射 &ndash;&gt;-->
+<!--        <association property="workarea" javaType="com.yun.entity.WorkArea">-->
+<!--            <result column="w_id" property="wId" />-->
+<!--            <result column="w_name" property="wName" />-->
+<!--        </association>-->
+<!--    </resultMap>-->
+
+<!--    &lt;!&ndash; 通用查询结果列 &ndash;&gt;-->
+<!--    <sql id="Base_Column_List">-->
+<!--        s_id, s_name, s_sex, s_age, d_name, w_name, s_status-->
+<!--    </sql>-->
+
+<!--    &lt;!&ndash; 联合查询，包含部门信息 &ndash;&gt;-->
+<!--    <select id="pageCC" resultType="com.yun.entity.Staff" resultMap="BaseResultMap">-->
+<!--        SELECT-->
+<!--            s.s_id, s.s_name, s.s_sex, s.s_age, s.s_status,-->
+<!--            d.d_id, d.d_name,-->
+<!--            w.w_id, w.w_name-->
+<!--        FROM-->
+<!--            staff s-->
+<!--                LEFT JOIN-->
+<!--            dept d ON s.d_id = d.d_id-->
+<!--                LEFT JOIN-->
+<!--            work_area w ON s.w_id = w.w_id-->
+<!--            ${ew.customSqlSegment}-->
+<!--    </select>-->
+
+<!--</mapper>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

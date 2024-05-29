@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<!--  <object-set>-->
+<!--    <view path="zhihui.view_dept">-->
+<!--      <table name="虚拟外键_name" from="" to=""/>-->
+<!--    </view>-->
+<!--    <view path="zhihui.view_staff">-->
+<!--      <table name="虚拟外键_name" from="" to=""/>-->
+<!--    </view>-->
+<!--    <view path="zhihui.view_work_area">-->
+<!--      <table name="虚拟外键_name" from="" to=""/>-->
+<!--    </view>-->
+<!--  </object-set>-->
+</data>

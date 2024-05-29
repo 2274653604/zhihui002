@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yun.dao.DeptMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.yun.entity.Dept">
+        <id column="d_id" property="dId" />
+        <result column="d_name" property="dName" />
+        <result column="s_admin_id" property="sAdminId" />
+        <result column="s_adminname" property="sAdminname" />
+        <result column="d_num" property="dNum" />
+
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        d_id, d_name, d_num, s_adminname
+    </sql>
+
+    <select id="pageCC" resultType="com.yun.entity.Dept">
+        select * from dept ${ew.customSqlSegment}
+    </select>
+
+
+    <select id="getList" resultType="com.yun.entity.Dept">
+        select * from dept
+    </select>
+
+
+</mapper>

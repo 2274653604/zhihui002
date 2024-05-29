@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yun.dao.WorkAreaMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.yun.entity.WorkArea">
+        <id column="w_id" property="wId" />
+        <result column="w_name" property="wName" />
+        <result column="s_admin_id" property="sAdminId" />
+        <result column="s_adminname" property="sAdminname" />
+        <result column="w_status" property="wStatus" />
+        <result column="w_num" property="wNum" />
+
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        w_id, w_name, s_adminname, w_status, w_num
+    </sql>
+
+    <select id="pageCC" resultType="com.yun.entity.WorkArea">
+        select * from work_area ${ew.customSqlSegment}
+    </select>
+
+</mapper>
